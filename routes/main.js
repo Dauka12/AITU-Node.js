@@ -7,3 +7,5 @@ router
     .get((req, res) => res.render(path.resolve("views/main.ejs")))
     .post((req, res) => res.send("POST"))
 module.exports = router;
+
+
